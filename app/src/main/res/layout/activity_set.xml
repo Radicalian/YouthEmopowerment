@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.yef.youthempower.youth.SetActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version Name\n1.0.3"
+        android:background="#ffffff"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By\nRadicalians Group"
+        android:background="#ffffff"
+        android:layout_gravity="start"
+        android:textAlignment="viewStart"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:onClick="btn2"
+        android:id="@+id/btn2"
+        android:background="#ffffff"
+        android:layout_gravity="start"
+        android:textAlignment="viewStart"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+</LinearLayout>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "321135795540",
+    "firebase_url": "https://youth-5ba3a.firebaseio.com",
+    "project_id": "youth-5ba3a",
+    "storage_bucket": "youth-5ba3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321135795540:android:361195614d369281",
+        "android_client_info": {
+          "package_name": "com.yef.youthempower.youth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321135795540-4okoh54g5l6erkp921j3tv1jbfpjp1rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yef.youthempower.youth",
+            "certificate_hash": "19070f022f77e359cc74715816f90f7d250ee4d1"
+          }
+        },
+        {
+          "client_id": "321135795540-oflkqs3jrrapgij5ksbhpsktdee88a19.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "321135795540-oflkqs3jrrapgij5ksbhpsktdee88a19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZF7eHO6cNm55vODTV0XWNuKSqy4WXE-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321135795540-oflkqs3jrrapgij5ksbhpsktdee88a19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

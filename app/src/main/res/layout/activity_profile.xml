@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@drawable/kaal6">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="User Registration"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColorHint="#ffffff"
+            android:hint="Enter your name"
+            android:maxLength="25"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+
+
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColorHint="#ffffff"
+            android:hint="Enter your mobile no."
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColorHint="#ffffff"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:hint="Enter your Password"
+            android:inputType="textPassword"
+            tools:ignore="MissingPrefix" />
+        <CheckBox
+
+            android:id="@+id/cbShowPwd"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_alignLeft="@+id/etPassword"
+
+            android:layout_below="@+id/etPassword"
+
+            android:text="Show Password" />
+        <Button
+            android:id="@+id/buttonSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Signup" />
+
+        <TextView
+            android:text="Already Registered? Click here for Login"
+            android:textColor="#e2ed04"
+            android:textStyle="bold"
+            android:id="@+id/textViewSignin"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
